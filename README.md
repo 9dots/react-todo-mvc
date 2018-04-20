@@ -17,7 +17,7 @@ If you have any questions or issues while working on this project you can email 
 
 ### Add Firebase
 
-Sign up for a free [firebase](https://firebase.google.com) account. Enable the firestore database and google authentication (check the firebase docs for details). Set up the project to use your firebase project.
+Add the firebase dependency in codesandbox. Sign up for a free [firebase](https://firebase.google.com) account. Enable the firestore database and google authentication (check the firebase docs for details). Set up the project to use your firebase project.
 
 **Important: Because of codesandbox constantly rebuilding initialize the firebase project in a try catch block!**
 
