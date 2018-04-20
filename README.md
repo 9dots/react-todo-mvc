@@ -1,6 +1,6 @@
-# Redux TodoMVC Example
+# TodoMVC Project
 
-To work on this project, import this project in [codesandbox.io](https://codesandbox.io). Starting from this boilerplate (from the [redux](https://github.com/reactjs/redux) examples), add the following functionality (without breaking the previous tests)
+Import this project in [codesandbox.io](https://codesandbox.io). Starting from this boilerplate (from the [redux](https://github.com/reactjs/redux) examples), add the following functionality (without breaking the previous tests)
 
 ## Functionality
 
