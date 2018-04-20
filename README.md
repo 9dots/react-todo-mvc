@@ -19,11 +19,11 @@ If you have any questions or issues while working on this project you can email 
 
 Sign up for a free [firebase](https://firebase.google.com) account. Enable the firestore database and google authentication (check the firebase docs for details). Set up the project to use your firebase project.
 
-**Important: Because of codesanbox constantly rebuilding initialize the firebase project in a try catch block!**
+**Important: Because of codesandbox constantly rebuilding initialize the firebase project in a try catch block!**
 
 ```js
 try {
-  firebase.initializeApp(config);
+  // initialize here
 } catch (e) {}
 ```
 
