@@ -1,6 +1,6 @@
 # TodoMVC Project
 
-Complete this project in [codesandbox.io](https://codesandbox.io).
+Complete this project in [codesandbox.io](https://codesandbox.io). Feel free to add any npm dependencies you deem necessary.
 
 To get started:
 
@@ -18,6 +18,14 @@ If you have any questions or issues while working on this project you can email 
 ### Add Firebase
 
 Sign up for a free [firebase](https://firebase.google.com) account. Enable the firestore database and google authentication (check the firebase docs for details). Set up the project to use your firebase project.
+
+**Important: Because of codesanbox constantly rebuilding initialize the firebase project in a try catch block!**
+
+```js
+try {
+  firebase.initializeApp(config);
+} catch (e) {}
+```
 
 ### Add Authentication
 
