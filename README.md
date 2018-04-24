@@ -31,6 +31,7 @@ try {
 
 Add a login page that gets rendered if the user is not yet logged in. The user should be able to login using Google. There should also be a way for logged in users to sign out.
 
+**Important: Pop open your preview into it's own window for authentication or enable popups on codesandbox.**
 ### Store Todos in Database
 
 The project should store all todos in the firestore database. Logged in users should only be able to see their own todos. A user that is logged out should be redirected to the login screen.
